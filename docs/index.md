@@ -5,21 +5,9 @@ layout: home
 hero:
   name: "AssetDaemon"
   text: "Documents For AssetDaemon"
-  tagline: My great project tagline
+  tagline: AssetDaemon 使用文档
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 新手教程
+      link: /tutorial/Introduction/Introduction
 ---
-

@@ -2,28 +2,23 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/AssetDaemon/",
-  title: "AssetDaemon",
-  description: "Documents For AssetDaemon",
+  base: '/AssetDaemon/',
+  title: 'AssetDaemon',
+  description: 'Documents For AssetDaemon',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '新手教程', link: '/tutorial/Introduction/Introduction' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '新手教程',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '教程介绍', link: '/tutorial/Introduction/Introduction' }
         ]
       }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
