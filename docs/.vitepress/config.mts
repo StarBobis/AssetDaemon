@@ -9,8 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '新手教程', link: '/tutorial/Introduction/Introduction' },
-      { text: 'LTS技术支持', link: '/lts/Introduction/Introduction' }
+      { text: '新手教程', link: '/tutorial/Introduction/Introduction' }
     ],
 
     sidebar: [
@@ -18,12 +17,6 @@ export default defineConfig({
         text: '新手教程',
         items: [
           { text: '教程介绍', link: '/tutorial/Introduction/Introduction' }
-        ]
-      },
-      {
-        text: 'LTS技术支持',
-        items: [
-          { text: '长期技术支持', link: '/lts/Introduction/Introduction' }
         ]
       }
     ]
