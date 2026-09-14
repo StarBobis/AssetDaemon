@@ -1,0 +1,8 @@
+# Cargo build configuration.
+#
+# Use the LLD linker shipped with the active Rust toolchain for faster Windows
+# MSVC links. The wrapper resolves the rustup sysroot at build time, so the
+# repository does not depend on a specific Windows user path.
+
+[target.x86_64-pc-windows-msvc]
+linker = "scripts/rust-lld-link.cmd"
