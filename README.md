@@ -73,6 +73,10 @@ None of this repository, the tool, or the repository owner is affiliated with, s
 
 This project is provided on an "as-is" basis, without warranty of any kind, and is not officially supported by Unity.
 
+## License
+
+AssetDaemon is released under the [GNU General Public License v3.0](LICENSE.txt).
+
 ## Acknowledgements
 
 Thanks to the developers, researchers, and reverse-engineering communities whose public work helped shape the surrounding ecosystem.
